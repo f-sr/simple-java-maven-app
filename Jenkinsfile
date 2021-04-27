@@ -39,7 +39,7 @@ pipeline {
 //         }
         stage('Deliver') {
             steps {
-                sh './jenkins/scripts/deliver.sh'
+                sh 'sudo ./jenkins/scripts/deliver.sh'
             }
         }
     }
